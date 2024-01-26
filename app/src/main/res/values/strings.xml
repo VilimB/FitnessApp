@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FitnessApp</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="time_string">9:41</string>
+    <string name="sing_in_string">Prijava</string>
+    <string name="phone___email_string">Email</string>
+    <string name="phone___email_ek1_string">Password</string>
+    <string name="prijava_string">Prijava</string>
+    <string name="start_training_ek1_string"> </string>
+    <string name="registracija_string">Registracija</string>
+    <string name="registracija">Registracija</string>
+    <string name="path">path</string>
+    <string name="odjava_string">Odjava</string>
+    <string name="choose_main_goal_string">Gym App</string>
+    <string name="title_ek1_string">Vježbe guranja</string>
+    <string name="title_string">Noge</string>
+    <string name="title_ek2_string">Vježbe povlačenja</string>
+    <string name="____string">pull</string>
+    <string name="path_ek1">path_ek1</string>
+    <string name="path_ek2">path_ek2</string>
+    <string name="start_training_string">Izaberite drugi trening</string>
+    <string name="titles_string">Kategorije vjebanja pomoi e vam da ojaate, postignete bolju formu i prihvatite zdrav nain ivota!</string>
+    <string name="workout_categories_string">Vjebe guranja</string>
+    <string name="bench_press_na_kosoj_klupi_sa_bu_icama_4x10_string">Bench press na kosoj klupi sa buicama4x10</string>
+    <string name="potisak_za_ramena_sa_bu_icama_3x10_string">Potisak za ramena sa buicama3x10</string>
+    <string name="triceps_povla_enje_3x12_string">Triceps povlaenje3x12</string>
+    <string name="rectangle_306">rectangle_306</string>
+
+</resources>

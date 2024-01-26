@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  prijava colors  -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="_bg__prijava_color">#FFFFFF</color>
+    <color name="border_color">#ffffff</color>
+    <color name="capacity_color">#000000</color>
+    <color name="sing_in_color">#0A0615</color>
+    <color name="input_color">#F8FAFC</color>
+    <color name="phone___email_color">#404B52</color>
+    <color name="prijava_color">#D9D9D9</color>
+    <color name="registracija_color">#D9D9D9</color>
+    <color name="_bg__registracija_color">#FFFFFF</color>
+    <color name="viewbox_color">#ffffff</color>
+    <color name="title_color">#ffffff</color>
+    <color name="____color">#000000</color>
+    <color name="_bg__vje_be_guranja_color">#000000</color>
+    <color name="bg_colors">#FFFFFF</color>
+    <color name="start_training_color">#010101</color>
+</resources>
