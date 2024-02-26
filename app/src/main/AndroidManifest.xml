@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,23 +12,35 @@
         android:theme="@style/Theme.FitnessApp"
         tools:targetApi="31">
         <activity
+            android:name=".activity_login1"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity_vjezbe_povlacenja"
+            android:exported="true" />
+        <activity
+            android:name=".activity_vjezbe_noge"
+            android:exported="true" />
+        <activity
             android:name=".activity_vjezbe_guranja"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activity_trening"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activity_registracija"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+
     </application>
 
 </manifest>

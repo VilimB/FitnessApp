@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
 
     <ScrollView
         android:id="@+id/activity_registracija"
@@ -15,6 +16,12 @@
             android:layout_height="wrap_content">
 
             <!-- Postavka pozadine -->
+            <View
+                android:id="@+id/_bg__registracija"
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="@drawable/_bg__registracija_shape"
+                android:layout_marginTop="0dp"/>
 
             <!-- Glavni okvir -->
             <FrameLayout
@@ -32,12 +39,12 @@
 
                     <!-- Naslov "Sign In" -->
                     <TextView
-                        android:id="@id/registracija"
+                        android:id="@+id/sing_in"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:text="Registracija"
+                        android:text="@string/prijava_string"
                         android:textColor="@color/sing_in_color"
                         android:textSize="25.98sp"
                         android:textStyle="bold"
@@ -72,25 +79,25 @@
                         android:layout_marginTop="8dp"/>
 
                     <Button
-                        android:id="@+id/button_1"
+                        android:id="@+id/button_ek1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
-                        android:layout_marginTop="24dp"
+                        android:layout_marginTop="30dp"
                         android:layout_marginEnd="24dp"
                         android:backgroundTint="@color/____color"
-                        android:text="Registracija" />
+                        android:text="Prijava" />
 
 
                     <Button
-                        android:id="@+id/button_ek1_1"
+                        android:id="@+id/button"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="18dp"
                         android:layout_marginEnd="24dp"
                         android:backgroundTint="@color/____color"
-                        android:text="Prijava" />
+                        android:text="Registracija" />
 
                 </LinearLayout>
             </FrameLayout>

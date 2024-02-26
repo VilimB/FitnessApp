@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- bg_ek8 from your XD file. -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-	android:shape="rectangle" >
-	<corners android:radius="4dp" />
-	<solid android:color="@color/_bg__treninzi_color1" />
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+	<solid android:color="@android:color/black" /> <!-- Postavite crnu pozadinu -->
+	<stroke android:width="5dp" android:color="@android:color/white" /> <!-- Dodajte bijeli okvir širine 1dp -->
 </shape>
-

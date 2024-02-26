@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
-    android:backgroundTint="@color/____color"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/black">
 
     <RelativeLayout
         android:id="@+id/group_211"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:layout_marginStart="25dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginTop="20dp">
+        android:layout_marginEnd="25dp">
 
         <ImageView
             android:id="@+id/rectangle_317"
@@ -24,16 +23,17 @@
             android:layout_marginTop="15dp"
             android:src="@drawable/ikona10"
             android:layout_centerHorizontal="true" />
+
         <TextView
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
-            android:gravity="center"
-            android:text="@string/title_ek1_string"
-            android:textColor="@color/title_color"
+            android:text="@string/title_ek2_string"
             android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textColor="@color/title_color"
+            android:textStyle="bold"
+            android:gravity="center"/>
 
         <TextView
             android:id="@+id/workout_categories"
@@ -41,12 +41,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/title"
             android:layout_marginTop="28dp"
-            android:gravity="center"
             android:text="@string/titles_string"
+            android:textSize="16sp"
             android:textColor="@color/input_color"
-            android:textSize="16sp" />
+            android:gravity="center"/>
     </RelativeLayout>
-
 
     <ScrollView
         android:id="@+id/activity_vjezbe_guranja"
@@ -62,11 +61,10 @@
 
             <!-- Background -->
             <View
-                android:id="@+id/_bg__vje_be_guranja"
+                android:id="@+id/_bg__vje_be_povla_enja"
+                android:background="@drawable/_bg__vje_be_guranja_shape"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/_bg__vje_be_guranja_shape" />
-
+                android:layout_height="wrap_content"/>
 
             <!-- Exercise Items -->
             <LinearLayout
@@ -78,28 +76,28 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp">
 
                     <ImageView
-                        android:id="@+id/rectangle_306"
+                        android:id="@+id/rectangle_312"
+                        android:src="@drawable/rectangle_312"
                         android:layout_width="120dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="25dp"
-                        android:layout_marginTop="16dp"
-                        android:src="@drawable/rectangle_306" />
+                        android:layout_marginTop="16dp"/>
 
                     <TextView
-                        android:id="@+id/bench_press_na_kosoj_klupi_sa_bu_icama_4x10"
+                        android:id="@+id/zgibovi_3x10"
+                        android:fontFamily="Poppins"
+                        android:textSize="18sp"
+                        android:textColor="@color/input_color"
+                        android:text="@string/rectangle_314"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="25dp"
-                        android:layout_weight="1"
-                        android:fontFamily="Poppins"
-                        android:text="@string/bench_press_na_kosoj_klupi_sa_bu_icama_4x10_string"
-                        android:textColor="@color/input_color"
-                        android:textSize="18sp"
                         android:gravity="center"/>
                 </LinearLayout>
 
@@ -107,26 +105,26 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="25dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp">
 
                     <ImageView
-                        android:id="@+id/rectangle_307"
+                        android:id="@+id/rectangle_313"
+                        android:src="@drawable/rectangle_313"
                         android:layout_width="120dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="25dp"
-                        android:layout_marginTop="16dp"
-                        android:src="@drawable/rectangle_307" />
+                        android:layout_marginTop="16dp"/>
 
                     <TextView
-                        android:id="@+id/potisak_za_ramena_sa_bu_icama_3x10"
+                        android:id="@+id/veslanje_u_pretklonu_4x10"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="25dp"
                         android:layout_weight="1"
                         android:fontFamily="Poppins"
-                        android:text="@string/potisak_za_ramena_sa_bu_icama_3x10_string"
+                        android:text="@string/rectangle_313"
                         android:textColor="@color/input_color"
                         android:textSize="18sp"
                         android:gravity="center"/>
@@ -136,49 +134,49 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="25dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp">
 
                     <ImageView
-                        android:id="@+id/rectangle_308"
+                        android:id="@+id/rectangle_314"
+                        android:src="@drawable/rectangle_314"
                         android:layout_width="120dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="25dp"
-                        android:layout_marginTop="16dp"
-                        android:src="@drawable/rectangle_308" />
+                        android:layout_marginTop="16dp"/>
 
                     <TextView
-                        android:id="@+id/triceps_povla_enje_3x12"
+                        android:id="@+id/biceps_hammer_3x10"
+                        android:fontFamily="Poppins"
+                        android:textSize="18sp"
+                        android:textColor="@color/input_color"
+                        android:text="@string/rectangle_314"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="25dp"
-                        android:layout_weight="1"
-                        android:fontFamily="Poppins"
-                        android:text="@string/triceps_povla_enje_3x12_string"
-                        android:textColor="@color/input_color"
-                        android:textSize="18sp"
                         android:gravity="center"/>
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/button_12"
+                    android:id="@+id/button_14"
                     style="@android:style/Widget.Button"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="40dp"
                     android:layout_marginEnd="30dp"
-                    app:backgroundTint="@color/boja"
                     android:fontFamily="Poppins"
                     android:gravity="center"
                     android:text="@string/start_training_string"
                     android:textColor="@color/input_color"
-                    android:textSize="16.36sp" />
-
+                    android:textSize="16.36sp"
+                    app:backgroundTint="@color/boja" />
 
             </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
+

@@ -13,17 +13,23 @@
     <string name="odjava_string">Odjava</string>
     <string name="choose_main_goal_string">Gym App</string>
     <string name="title_ek1_string">Vježbe guranja</string>
-    <string name="title_string">Noge</string>
+    <string name="title_string">Vježbe za noge</string>
     <string name="title_ek2_string">Vježbe povlačenja</string>
     <string name="____string">pull</string>
     <string name="path_ek1">path_ek1</string>
     <string name="path_ek2">path_ek2</string>
     <string name="start_training_string">Izaberite drugi trening</string>
-    <string name="titles_string">Kategorije vjebanja pomoi e vam da ojaate, postignete bolju formu i prihvatite zdrav nain ivota!</string>
+    <string name="titles_string">Kategorije vježbanja pomoći će vam da ojačate, postignete bolju formu i prihvatite zdrav način života!</string>
     <string name="workout_categories_string">Vjebe guranja</string>
-    <string name="bench_press_na_kosoj_klupi_sa_bu_icama_4x10_string">Bench press na kosoj klupi sa buicama4x10</string>
-    <string name="potisak_za_ramena_sa_bu_icama_3x10_string">Potisak za ramena sa buicama3x10</string>
-    <string name="triceps_povla_enje_3x12_string">Triceps povlaenje3x12</string>
+    <string name="bench_press_na_kosoj_klupi_sa_bu_icama_4x10_string">Bench press na kosoj klupi sa bučicama \n<b>4x10</b></string>
+    <string name="potisak_za_ramena_sa_bu_icama_3x10_string">Potisak za ramena sa bučicama \n<b>3x10</b></string>
+    <string name="triceps_povla_enje_3x12_string">Triceps povlačenje \n<b>3x12</b></string>
     <string name="rectangle_306">rectangle_306</string>
-
+    <string name="rectangle_309">Čučanj sa ravnom šipkom \n<b>4x10</b></string>
+    <string name="rectangle_310">Nožna ekstenzija \n<b>3x10</b></string>
+    <string name="rectangle_311">Iskoraci \n<b>3x12</b></string>
+    <string name="rectangle_312">Zgibovi \n<b>3x10</b></string>
+    <string name="rectangle_313">Veslanje u pretklonu sa bučicama \n<b>4x10</b></string>
+    <string name="rectangle_314">Biceps-hammer \n<b>3x12</b></string>
+    <string name="rectangle_315">Vježbe za noge</string>
 </resources>

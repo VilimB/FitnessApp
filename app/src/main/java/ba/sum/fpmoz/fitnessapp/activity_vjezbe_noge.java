@@ -6,15 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class activity_vjezbe_guranja extends AppCompatActivity {
+public class activity_vjezbe_noge extends AppCompatActivity {
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vjezbe_guranja);
+        setContentView(R.layout.activity_vjezbe_noge);
 
-        Button button12 = findViewById(R.id.button_12);
-        button12.setOnClickListener(new View.OnClickListener() {
+        Button button13 = findViewById(R.id.button_13);
+        button13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openTrainingActivity();
@@ -23,7 +22,7 @@ public class activity_vjezbe_guranja extends AppCompatActivity {
     }
 
     private void openTrainingActivity() {
-        Intent intent = new Intent(activity_vjezbe_guranja.this, activity_trening.class);
+        Intent intent = new Intent(activity_vjezbe_noge.this, activity_trening.class);
         startActivity(intent);
     }
 }
